@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-10-28T20:31:04.324Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="QKWD62cmW8tNEI_RRI3w" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-10-28T20:35:30.490Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Safari/537.36" etag="NNDdmqbl18pCHN6J9BVI" version="13.6.5" type="github" pages="2">
   <diagram id="-gNR-SX9HZmFKM1fWBXX" name="Page-1">
     <mxGraphModel dx="1117" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -87,6 +87,50 @@
         </mxCell>
         <mxCell id="ZGkaGtBlXBVSzkNMTwmu-12" value="Exec&lt;br&gt;role" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="700" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="U_yA70E6KyNokvg87Xwr" name="Page-2">
+    <mxGraphModel dx="1117" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="hg4hE2ffFTemA8jr_Cyk-0" />
+        <mxCell id="hg4hE2ffFTemA8jr_Cyk-1" parent="hg4hE2ffFTemA8jr_Cyk-0" />
+        <mxCell id="1ajcXuYfGeHAG1kNrv2t-3" value="VPC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hg4hE2ffFTemA8jr_Cyk-1">
+          <mxGeometry x="170" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1ajcXuYfGeHAG1kNrv2t-7" value="Target Group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hg4hE2ffFTemA8jr_Cyk-1">
+          <mxGeometry x="170" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1ajcXuYfGeHAG1kNrv2t-10" value="Subnet" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hg4hE2ffFTemA8jr_Cyk-1">
+          <mxGeometry x="220" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1ajcXuYfGeHAG1kNrv2t-13" value="Security Group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hg4hE2ffFTemA8jr_Cyk-1">
+          <mxGeometry x="400" y="320" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1ajcXuYfGeHAG1kNrv2t-15" value="Cluster" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hg4hE2ffFTemA8jr_Cyk-1">
+          <mxGeometry x="480" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1ajcXuYfGeHAG1kNrv2t-17" value="Log&lt;br&gt;Group" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hg4hE2ffFTemA8jr_Cyk-1">
+          <mxGeometry x="280" y="340" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1ajcXuYfGeHAG1kNrv2t-18" value="Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hg4hE2ffFTemA8jr_Cyk-1">
+          <mxGeometry x="170" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1ajcXuYfGeHAG1kNrv2t-20" value="Load balancer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hg4hE2ffFTemA8jr_Cyk-1">
+          <mxGeometry x="290" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1ajcXuYfGeHAG1kNrv2t-22" value="Listener" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hg4hE2ffFTemA8jr_Cyk-1">
+          <mxGeometry x="290" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1ajcXuYfGeHAG1kNrv2t-23" value="Listener rule" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hg4hE2ffFTemA8jr_Cyk-1">
+          <mxGeometry x="360" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1ajcXuYfGeHAG1kNrv2t-25" value="Task definition" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hg4hE2ffFTemA8jr_Cyk-1">
+          <mxGeometry x="450" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="1ajcXuYfGeHAG1kNrv2t-27" value="Exec&lt;br&gt;role" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="hg4hE2ffFTemA8jr_Cyk-1">
+          <mxGeometry x="410" y="390" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
